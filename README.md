@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+# Support Vector Machines
 
-You can use the [editor on GitHub](https://github.com/euler777/SupportVectorMachines.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+So far we have introduced 3 supervised classification approaches in Chapter 2 (K- nearest neighbors, logistic regression and discriminant anal- ysis) and 1 in Chapter 6 (classification tree). In this chapter, we discuss the support vector machines (SVMs), an approach for classification that was de- veloped in the computer science community in the 1990s and that has grown in popularity since then. Compared to the 4 methods that we have introduced in Chapter 2 and 6, SVMs look for
+estimating the decision boundary functions by setting up an optimization problem. When the shape of the boundaries (linear? polynomial? exponential?) are known, SVMs have more advantages. For instance, it is more general and it performs much better in most cases when dealing with a variety of settings of modern data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/euler777/SupportVectorMachines.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Main goal: To know the 3 SVMs approaches: the maximal margin classifi- er (hyperplane), the support vector classifier (soft margin), and the support vector machine with linear, polynomial and radial kernels.
